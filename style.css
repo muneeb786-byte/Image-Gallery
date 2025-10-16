@@ -21,17 +21,7 @@ nav {
 
 }
 
-nav ul {
-    display: flex;
-    list-style: none;
-    gap: 30px;
-}
 
-nav a {
-    color: #e2e2e2;
-    text-decoration: none;
-
-}
 
 .hide {
     display: none;
@@ -70,7 +60,7 @@ nav a {
     border-radius: 20px;
     object-fit: cover;
     transition: transform 0.5s ease;
-    
+
 }
 
 .item:hover  img{
@@ -94,22 +84,6 @@ nav a {
 }
 
 
-/* .overlay {
-  position: fixed;
-  top: 0; left: 0;
-  width: 100vw; height: 100vh;
-  background: rgba(0,0,0,0.8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.zoomed {
-  max-width: 90%;
-  max-height: 90%;
-  border-radius: 10px;
-}
- */
 
 
  .overlay {
@@ -160,11 +134,12 @@ nav a {
   transform: scale(1.1);
 }
 
-@media (max-width: 500px) {
 
-     nav ul{
-         display: none;
-     }
+@media (max-width: 500px) {
+   
+    nav ul{
+        display: none !important;
+    }
     .close-btn {
   position: absolute;
   top: 5px;
@@ -173,16 +148,21 @@ nav a {
   .grid{
     all: unset;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    width: 95%;
+    width: 94%;
     gap: 15px;
-    margin-left:30px;
+    margin-inline: auto;
     margin-top: 15px;
     box-sizing: border-box;
   }
 
+  .hide{
+    display: flex !important;
+  }
+
   .item{
-    width: 40vw;
+    width: 45vw;
     height: 100px;
   }
   .item img{
@@ -200,4 +180,3 @@ nav a {
     width: 12px;
   }
 }
-
