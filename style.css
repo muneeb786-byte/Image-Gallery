@@ -137,7 +137,7 @@ nav {
 
 @media (max-width: 500px) {
    
-    nav ul{
+    nav span{
         display: none !important;
     }
     .close-btn {
@@ -180,3 +180,4 @@ nav {
     width: 12px;
   }
 }
+
