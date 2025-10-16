@@ -150,7 +150,7 @@ nav {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 94%;
+    width: 95vw;
     gap: 15px;
     margin-inline: auto;
     margin-top: 15px;
@@ -180,4 +180,5 @@ nav {
     width: 12px;
   }
 }
+
 
