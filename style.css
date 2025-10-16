@@ -162,7 +162,9 @@ nav a {
 
 @media (max-width: 500px) {
 
-
+     nav ul{
+         display: none;
+     }
     .close-btn {
   position: absolute;
   top: 5px;
@@ -198,3 +200,4 @@ nav a {
     width: 12px;
   }
 }
+
