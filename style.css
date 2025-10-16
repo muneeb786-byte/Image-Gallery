@@ -136,7 +136,9 @@ nav {
 
 
 @media (max-width: 500px) {
-   
+   nav {
+       padding-left: 20px;
+   }
     nav span{
         display: none !important;
     }
@@ -150,7 +152,7 @@ nav {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 95vw;
+    width: 97vw;
     gap: 15px;
     margin-inline: auto;
     margin-top: 15px;
@@ -180,5 +182,6 @@ nav {
     width: 12px;
   }
 }
+
 
 
